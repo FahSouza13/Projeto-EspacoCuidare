@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depilação</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <!--<h2>Respira, expira e DEPILA!</h2>-->
+            </hgroup>
+    
+            <img id="icone" src="imagens/contato.png"/>
+            <nav id="menu">
+            <h1> Menu Principal </h1>
+            <ul list-style-type="disc">
+                <li onmouseover="mudaFoto('imagens/casa.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('imagens/catalogo.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="servicos.html">Serviços</a></li>
+                <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="contato.html">Contato</a></li>
+                <li onmouseover="mudaFoto('imagens/busca-de-conhecimento.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="areas.html">Conheça as Áreas</a></li>
+            </ul>
+            </nav>
+        <frameborder> </frameborder>
+        </header>
+
+        <div class="corpo">
+            <div class="atendimento">
+                <h1>Atendimento</h1>
+                <a href="#"><img src="imagens/el_site_botoes whatsapp_COMPRA.png" alt="Compre agora"></a>
+                <a href="#"><img src="imagens/el_site_botoes whatsapp_SAC.png" alt="Central de Atendimento"></a>
+            </div>
+            
+            <div class="seguir">
+                    <h1>Siga-nos</h1>
+                    <div class="icones">
+                        <a href="#"><img src="imagens/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="imagens/tiktok.png" alt="TikTok"></a>
+                        <a href="#"><img src="imagens/youtube.png" alt="YouTube"></a>
+                    </div>
+            </div>
+            
+            
+            <div class="mensagem">
+                <h1>Deixe sua mensagem <br> <span>entraremos em contato!</span></h1>
+                <form method="post" id="fContato" action="mailto:devfahsouza@gmail.com">
+                    <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+                        <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30"/></p>
+                        <p><label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/></p>
+                        <p><label for="cUrg">Grau de Urgência:</label>
+                        Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1">Máx</p>
+                        <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem!"></textarea></p>
+                    </fieldset>
+                    <input type="image" name="tEnviar" src="imagens/botao-enviar.png">
+                </form>
+            </div>
+        </div>
+</body>
+</html>

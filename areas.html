@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depilação</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <!--<h2>Respira, expira e DEPILA!</h2>-->
+            </hgroup>
+    
+            <img id="icone" src="imagens/galeria-de-imagens.png"/>
+            <nav id="menu">
+            <h1> Menu Principal </h1>
+            <ul list-style-type="disc">
+                <li onmouseover="mudaFoto('imagens/casa.png')" onmouseout="mudaFoto('imagens/busca-de-conhecimento.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('imagens/catalogo.png')" onmouseout="mudaFoto('imagens/busca-de-conhecimento.png')"><a href="servicos.html">Serviços</a></li>
+                <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/busca-de-conhecimento.png')"><a href="contato.html">Contato</a></li>
+                <li onmouseover="mudaFoto('imagens/busca-de-conhecimento.png')" onmouseout="mudaFoto('imagens/busca-de-conhecimento.png')"><a href="areas.html">Conheça as Áreas</a></li>
+            </ul>
+            </nav>
+        <frameborder> </frameborder>
+        </header>
+        
+        <div class="sobre-nos">
+            <h1><span>Respira, expira e</span> DEPILA!</h1>
+        </div>
+
+        <section id="conteudo">
+        <img src="imagens/woman-areas.webp" usemap="#meumapa">
+        <map name="meumapa">
+            <area shape="circle" coords="94,331,7.5" href="specs.html#VIRILHA" target="janela">
+            <area shape="circle" coords="306,337,7.5" href="specs.html#ÂNUS" target="janela">
+            <area shape="circle" coords="129,551,7.5" href="specs.html#1/2 PERNA" target="janela">
+            <area shape="circle" coords="128,278,7.5" href="specs.html#BARRIGA" target="janela">
+            <area shape="circle" coords="116,72,7.5" href="specs.html#BARBA" target="janela">
+            <area shape="circle" coords="94,206,7.5" href="specs.html#TÓRAX" target="janela">
+            <area shape="circle" coords="94,250,7.5" href="specs.html#ABDÔMEN" target="janela">
+            <area shape="circle" coords="304,241,7.5" href="specs.html#COSTAS" target="janela">
+            <area shape="circle" coords="127,446,7.5" href="specs.html#PERNASINTEIRAS" target="janela">
+        </map>
+        <iframe src="specs.html" name="janela" id="frame-spec"></iframe>
+    </section>
+
+</body>
+</html>
