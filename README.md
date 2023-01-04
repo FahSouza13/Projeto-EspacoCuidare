@@ -1,2 +1,2 @@
 # Projeto-EspacoCuidare
- Site desenvolvido como atividade avaliativa no curso de Desenvolvimento de Sistemas
+Desenvolvi esse site como atividade avaliativa do curso presencial.
