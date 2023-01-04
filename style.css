@@ -53,7 +53,7 @@ padding: 20px;
 
 }
 header#cabecalho {
-	border-bottom:  5px #606060 solid;
+	border-bottom:  1px #606060 solid;
 	height: 160px;
 	background: url("imagens/logo.png") no-repeat 0 0;
 	margin-left: 10px;
